@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -46,6 +46,7 @@
             </div>
         </header>
         <main style="height: 6000px">
+            <!-- hero -->
             <div class="hero">
                 <div class="content">
                     <div class="body">
@@ -55,7 +56,7 @@
                             <h1 class="heading lv1">
                                 Words learner come here.
                             </h1>
-                            <p class="desc">
+                            <p class="desc-left">
                                 Build skills with courses, certificates, and get
                                 online knowledge from our world-class platform.
                             </p>
@@ -74,74 +75,396 @@
                         </div>
                         <!-- block right -->
                         <div class="block-right">
-                            <img
-                                src="./assets/img/hero-img.jpg"
-                                alt="hero-img"
-                                class="images"
-                            />
+                            <div class="hero__media">
+                                <img
+                                    src="./assets/img/hero-img.jpg"
+                                    alt="hero-img"
+                                    class="images"
+                                />
 
-                            <div class="info-courses">
-                                <div class="icon">
+                                <div class="info-courses">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/icon/Book.svg"
+                                            alt="book"
+                                        />
+                                    </div>
+                                    <div class="desc-info">
+                                        <p class="label">Courses</p>
+                                        <p class="number">1000+</p>
+                                    </div>
+                                </div>
+
+                                <div class="schedules">
+                                    <p class="title">Schedules</p>
                                     <img
-                                        src="./assets/icon/Book.svg"
-                                        alt="book"
+                                        src="./assets/icon/schedule-1.svg"
+                                        alt="schedule"
+                                    />
+                                    <img
+                                        src="./assets/icon/schedule-2.svg"
+                                        alt="schedule"
+                                    />
+                                    <img
+                                        src="./assets/icon/schedule-3.svg"
+                                        alt="schedule"
+                                    />
+                                    <img
+                                        src="./assets/icon/schedule-4.svg"
+                                        alt="schedule"
                                     />
                                 </div>
-                                <div class="desc">
-                                    <p class="label">Courses</p>
-                                    <p class="number">1000+</p>
-                                </div>
-                            </div>
-
-                            <div class="schedules">
-                                <p class="title">Schedules</p>
-                                <img
-                                    src="./assets/icon/schedule-1.svg"
-                                    alt="schedule"
-                                />
-                                <img
-                                    src="./assets/icon/schedule-2.svg"
-                                    alt="schedule"
-                                />
-                                <img
-                                    src="./assets/icon/schedule-3.svg"
-                                    alt="schedule"
-                                />
-                                <img
-                                    src="./assets/icon/schedule-4.svg"
-                                    alt="schedule"
-                                />
-                            </div>
-                            <div class="student">
-                                <p class="student-active">
-                                    Our Active Students
-                                </p>
-                                <div class="avatar-list">
-                                    <img
-                                        src="./assets/img/student-1.jpg"
-                                        alt="avatar student"
-                                        class="avatar"
-                                    />
-                                    <img
-                                        src="./assets/img/student-2.jpg"
-                                        alt="avatar student"
-                                        class="avatar"
-                                    />
-                                    <img
-                                        src="./assets/img/student-3.jpg"
-                                        alt="avatar student"
-                                        class="avatar"
-                                    />
-                                    <img
-                                        src="./assets/img/student-4.jpg"
-                                        alt="avatar student"
-                                        class="avatar"
-                                    />
-                                    <p class="avatar">10K+</p>
+                                <div class="student">
+                                    <p class="student-active">
+                                        Our Active Students
+                                    </p>
+                                    <div class="avatar-list">
+                                        <img
+                                            src="./assets/img/student-1.jpg"
+                                            alt="avatar student"
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/student-2.jpg"
+                                            alt="avatar student"
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/student-3.jpg"
+                                            alt="avatar student"
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/student-4.jpg"
+                                            alt="avatar student"
+                                            class="avatar"
+                                        />
+                                        <p class="avatar">10K+</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- use BEM -->
+            <!-- feature -->
+            <div class="feature">
+                <div class="container--left">
+                    <div class="container__feature">
+                        <div class="feature__content">
+                            <span class="label">F E A T U R E S</span>
+                            <h2 class="section__heading">
+                                We are providing suitable features for students.
+                            </h2>
+                            <p class="section__desc section__desc--width">
+                                Read our awesome feature that is absolutely suit
+                                for you. Explore the feature and know the best.
+                            </p>
+                        </div>
+                        <div class="feature__list">
+                            <!-- section item 1 -->
+                            <section class="feature-item">
+                                <figure class="feature-item__images">
+                                    <img
+                                        src="./assets/icon/feature-icon-1.svg"
+                                        alt="Live Class"
+                                        class="feature-item__img"
+                                    />
+                                </figure>
+                                <h3 class="feature-item__heading">
+                                    Live Class
+                                </h3>
+                                <p
+                                    class="feature-item__desc feature-item__desc--short"
+                                >
+                                    We are providing live classes with the best
+                                    teacher for you
+                                </p>
+                            </section>
+
+                            <!-- section item 2 -->
+                            <section class="feature-item">
+                                <figure class="feature-item__images">
+                                    <img
+                                        src="./assets/icon/feature-icon-2.svg"
+                                        alt="Discuss"
+                                        class="feature-item__img"
+                                    />
+                                </figure>
+                                <h3 class="feature-item__heading">Discuss</h3>
+                                <p class="feature-item__desc">
+                                    Conversation with teachers or another
+                                    students about task or any other thing
+                                </p>
+                            </section>
+
+                            <!-- section item 3 -->
+                            <section class="feature-item">
+                                <figure class="feature-item__images">
+                                    <img
+                                        src="./assets/icon/feature-icon-3.svg"
+                                        alt="Tasks"
+                                        class="feature-item__img"
+                                    />
+                                </figure>
+                                <h3 class="feature-item__heading">Tasks</h3>
+                                <p class="feature-item__desc">
+                                    We give every of our students task for
+                                    gathering knowledge at home
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- courses -->
+            <div class="courses">
+                <div class="container">
+                    <section class="courses__content">
+                        <span class="label">C O U R S E S</span>
+                        <h2 class="section__heading">Popular Courses</h2>
+                        <div class="courses-title">
+                            <p class="courses__desc">
+                                Check out our most poular courses that suit for
+                                you. Here you can find your favourite one.
+                            </p>
+                            <a href="#!" class="courses-link"
+                                >View All Courses
+                            </a>
+                        </div>
+                    </section>
+                    <div class="courses__list">
+                        <!-- courses item 1 -->
+                        <section class="courses-item">
+                            <figure class="courses-item__images">
+                                <img
+                                    src="./assets/img/courses-1.jpg"
+                                    alt="Web Design"
+                                    class="courses-item__img"
+                                />
+                            </figure>
+                            <div class="courses-item__info">
+                                <h3 class="courses-item__heading">
+                                    Web Design
+                                </h3>
+                                <p class="courses-item__desc">
+                                    Fee
+                                    <span class="courses-item__value">
+                                        $200
+                                    </span>
+                                </p>
+                                <p class="courses-item__desc">
+                                    Web design basic to higher level
+                                </p>
+                                <div class="courses-item__date">
+                                    <p class="courses-item__date-time">
+                                        40 Classes
+                                    </p>
+                                    <p class="courses-item__date-time">
+                                        3 Months
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- courses item 2 -->
+                        <section class="courses-item">
+                            <figure class="courses-item__images">
+                                <img
+                                    src="./assets/img/courses-2.jpg"
+                                    alt="Web Development"
+                                    class="courses-item__img"
+                                />
+                            </figure>
+                            <div class="courses-item__info">
+                                <h3 class="courses-item__heading">
+                                    Web Development
+                                </h3>
+                                <p class="courses-item__desc">
+                                    Fee
+                                    <span class="courses-item__value">
+                                        $250
+                                    </span>
+                                </p>
+                                <p class="courses-item__desc line-clamp">
+                                    Web development basic to higher level
+                                </p>
+                                <div class="courses-item__date">
+                                    <p class="courses-item__date-time">
+                                        30 Classes
+                                    </p>
+                                    <p class="courses-item__date-time">
+                                        3 Months
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- courses item 3 -->
+                        <section class="courses-item">
+                            <figure class="courses-item__images">
+                                <img
+                                    src="./assets/img/courses-3.jpg"
+                                    alt="UI/UX Design"
+                                    class="courses-item__img"
+                                />
+                            </figure>
+                            <div class="courses-item__info">
+                                <h3 class="courses-item__heading">
+                                    UI/UX Design
+                                </h3>
+                                <p class="courses-item__desc">
+                                    Fee
+                                    <span class="courses-item__value">
+                                        $350
+                                    </span>
+                                </p>
+                                <p class="courses-item__desc">
+                                    UI/UX design basic to higher level
+                                </p>
+                                <div class="courses-item__date">
+                                    <p class="courses-item__date-time">
+                                        50 Classes
+                                    </p>
+                                    <p class="courses-item__date-time">
+                                        4 Months
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- number -->
+            <div class="number">
+                <div class="number__body">
+                    <div class="number-item">
+                        <span class="number__value">100+</span>
+                        <p class="number__desc">Popular Courses</p>
+                    </div>
+                    <div class="number-item">
+                        <span class="number__value">500+</span>
+                        <p class="number__desc">Skilled Trainer</p>
+                    </div>
+                    <div class="number-item">
+                        <span class="number__value">1M+</span>
+                        <p class="number__desc">Student Learning</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- comment -->
+            <div class="comment">
+                <div class="container">
+                    <div class="comment__box">
+                        <div class="comment__content">
+                            <blockquote class="comment__quote">
+                                <img
+                                    src="./assets/icon/comment-icon.svg"
+                                    alt="icon quote"
+                                    class="comment__icon"
+                                />
+                                <p class="comment__desc">
+                                    “They are the best people. And this is the
+                                    suitable platform to learn from distance.”
+                                </p>
+                                <p class="comment__name">
+                                    <span class="comment__author"
+                                        >Ben Foakes,</span
+                                    >
+                                    student.
+                                </p>
+                            </blockquote>
+                            <div class="comment__control">
+                                <div class="comment__control-wapper">
+                                    <svg
+                                        style="rotate: 180deg"
+                                        class="comment__control-icon"
+                                        width="8"
+                                        height="14"
+                                        viewBox="0 0 8 14"
+                                        fill="#2ac9bf"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M1 13L7 7L1 1"
+                                            stroke="white"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </div>
+
+                                <div class="comment__control-wapper">
+                                    <svg
+                                        class="comment__control-icon"
+                                        width="8"
+                                        height="14"
+                                        viewBox="0 0 8 14"
+                                        fill="#2ac9bf"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M1 13L7 7L1 1"
+                                            stroke="white"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comment__images">
+                            <img
+                                src="./assets/img/comment-img-1.jpg"
+                                alt="human comment"
+                                class="comment__img"
+                            />
+                            <img
+                                src="./assets/img/comment-img-2.jpg"
+                                alt="human comment"
+                                class="comment__img"
+                            />
+                            <img
+                                src="./assets/img/comment-img-3.jpg"
+                                alt="human comment"
+                                class="comment__img"
+                            />
+                            <img
+                                src="./assets/img/comment-img-4.jpg"
+                                alt="human comment"
+                                class="comment__img"
+                            />
+                            <img
+                                src="./assets/img/comment-img-5.jpg"
+                                alt="human comment"
+                                class="comment__img"
+                            />
+                            <img
+                                src="./assets/img/comment-img-6.jpg"
+                                alt="human comment"
+                                class="comment__img"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- link -->
+            <div class="link">
+                <div class="container">
+                    <div class="link__body">
+                        <h2 class="section__heading"></h2>
+                        <p class="link__desc"></p>
+                    </div>
+                    <button class="btn"></button>
                 </div>
             </div>
         </main>
